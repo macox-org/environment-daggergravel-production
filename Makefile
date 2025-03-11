@@ -18,6 +18,4 @@ install:
 delete:
 	helm delete --purge ${NAMESPACE}  --namespace ${NAMESPACE}
 
-clean:
-
 
